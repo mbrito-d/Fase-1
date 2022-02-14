@@ -9,6 +9,8 @@ namespace PROJECTDEVS
         private int TIME;
         private string DESCR = string.Empty;
         private int IDc = 0;
+        private int IDu = 0;
+        private int IDs = 0;
         public enum STATUS
         {
             [Description("A fazer")] Fazer,
